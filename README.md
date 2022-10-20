@@ -65,7 +65,7 @@ Now when you hit that lovely download button it will spit out a yummy .elf file 
 <img src="https://user-images.githubusercontent.com/82833724/196805911-a3e55d68-703f-4cd0-98ab-5b9ed588fe09.png" width=300>
 
 
-Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line bullshit. Anyway, just now, this is how it's done.
+Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line bullshit.[^3] Anyway, just now, this is how it's done.
 
 1. **Transfer the game from the computer onto a USB stick of your choice**
 2. **Plug the USB into the RPi**
@@ -88,6 +88,16 @@ This is the template for adding a game to the `gamelist.xml` file (make sure to 
 ```
 
 Now the game will actually boot up (Hurrah!). But it's not over yet (Aw). The game was (kind of) visible but the display was skewed into oblivion. Luckily, this was an easy fix. What's happening here is that all MakeCode games expect the display that they're running on to be in a 4:3 aspect ratio so when that doesn't happen it obviously confuses the game. So all we have to do is change the display resolution to something that's 4:3 and we're golden. And for good mesasure, I also changed the framebuffer width and height in the `/boot/config.txt` file to be 640 and 480 respectively. Now we have a fully working MakeCode game running on our RPi!
+
+###SAMBA
+Thanks to Aidan (his spirit lives on) who has suggested, very cleverly, that we use the Network SMB protocol (also known as SAMBA). The SMB protocol is as defined by Google.
+```
+A network file sharing protocol that allows applications on a computer to read and write to files and to request services from server programs in a computer network.
+```
+In laymans terms. It allows us to share files over a network, similar to that of FTP, SFTP, SCP and the likes. This will allow us to add the RPi to the laptops as a network folder meaning that you will be able to simply drag and drop the game file into this folder and it will move to the RPi. This won't automatically add it to the gamelist.xml but it certainly makes things a lot easier :) 
+
+THANKS AIDAN!
+
 
 ## The Hardware
 ### Microcontroller
@@ -113,3 +123,4 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
+[^3]: See section ["SAMBA"](#samba)
