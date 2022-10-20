@@ -17,7 +17,7 @@ Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll bre
 ### RetroPie Setup
 The OS of choice was [_RetroPie_](https://retropie.org.uk/) (an emulation centric OS for raspberry pi) It would have worked with other emulation OS such as [_Batocera_](https://batocera.org/) or [_RecalBox_](https://www.recalbox.com/) but I just chose RetroPie since I have previous experiance with it and know it works.
 
-There was also the option to actually modify the firmware of the RPi itself to allow for instant transferring and running of games like the MeowBits but unfortunately this isn't natively supported for the 3b+ and would probably require modification of the firmware which is something I'm not very confident with.
+There was also the option to actually modify the firmware of the RPi itself to allow for instant transferring and running of games like the MeowBits but unfortunately this isn't natively supported for the 3b+ and would probably require modification of the firmware which is something I'm not very confident with. Also, using an acutal emulation OS just allows for more possibilities of expansion in future, If say we want to run games other than MakeCode on this thing
 
 So the first port of call was to flash the RetroPie OS to the Raspberry Pi using the [RPi Imager Tool](https://www.raspberrypi.com/software/) available on their website. The imager tool is kind enough to include RetroPie in its library of OS' so no need to go downloading the image manually
 
