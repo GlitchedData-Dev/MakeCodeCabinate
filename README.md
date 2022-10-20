@@ -24,7 +24,7 @@ So the first port of call was to flash the RetroPie OS to the Raspberry Pi using
 <img src="https://user-images.githubusercontent.com/82833724/196798587-d1c131ea-32c4-4695-a170-fdc5098b63c1.png" width=400 title="The imager tool"/>
 
 
-Once the image had finished flashing the SD was plugged back into the RPi and **BOOM**, EmulationStation. There was still some setup needed to allow for makecode games to run however.
+Once the image had finished flashing the SD was plugged back into the RPi and **BOOM**, EmulationStation. There was still some setup needed to allow for MakeCode games to run however.
 
 ---
 ### McAirpos
