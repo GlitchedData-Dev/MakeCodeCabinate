@@ -6,7 +6,7 @@ Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll bre
   - [RetroPie Setup](#retropie-setup)
   - [McAirpos](#mcairpos)
   - [Preparing and transferring games](#the-games)
-  - [SAMBA](#samba)
+  - [SAMBA](#addendum-a,-a-note-on-samba)
 * The Hardware
   - [Microcontroller](#microcontroller)
   - [Joystick](#joystick)
