@@ -117,6 +117,10 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 
 (The connectors are curled on one side, make sure the curled side is always facing down or towards the button)
 
+
+## ISSUES
+### WiFi
+There appears to be an issue with WiFi connection. first of all, the actual connection to WiFi has to be done by entering the SSID of the router manually as there doesn't seem to be an option to scan for WiFi (I may just be missing something) but when entered, the WiFi credentials don't work and the only way to get a network connection just now is via Ethernet. And we will need an internet connection if we want to use SAMBA. Any input on this issue would be appreciated
 ---
 
 #### Addendum A
