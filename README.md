@@ -110,7 +110,7 @@ THANKS AIDAN!
 
 ## The Hardware
 ### Microcontroller
-The button set Colin bought uses a microcontroller that connects to the RPi via USB and conveniently collects all of the buttons to one device so that we don't have to do any editing to the uinput.cfg files (thanks EG Starts B)). Here's a diagram of what all the different ports on the board are for.
+The button kit we've acquired uses a microcontroller that connects to the RPi via USB and conveniently collects all of the buttons to one device so that we don't have to do any editing to the uinput.cfg files (thanks EG Starts B)). Here's a diagram of what all the different ports on the board are for.
 
 <img src="https://user-images.githubusercontent.com/82833724/196812231-fe0fb004-752b-4ff0-bd26-1bf987f2f480.png" width=300/>
 
