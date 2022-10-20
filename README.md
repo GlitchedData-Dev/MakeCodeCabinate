@@ -103,7 +103,7 @@ in a computer network.
 ```
 In laymans terms, SAMBA allows us to share files over a network, similar to that of FTP, SFTP, SCP and the likes. 
 
-This will allow us to add the RPi to the laptops as a network folder meaning that you will be able to simply drag and drop the game file into this folder and it will move to the RPi. This won't automatically add it to the gamelist.xml but it certainly makes things a lot easier :) 
+This will allow us to add the RPi to the laptops as a network folder meaning that you will be able to simply drag and drop the game file into this folder and it will move to the RPi. This won't automatically add it to the gamelist.xml but it certainly makes things a lot easier.
 
 THANKS AIDAN!
 
