@@ -90,7 +90,7 @@ This is the template for adding a game to the `gamelist.xml` file (make sure to 
 
 Now the game will actually boot up (Hurrah!). But it's not over yet (Aw). The game was (kind of) visible but the display was skewed into oblivion. Luckily, this was an easy fix. What's happening here is that all MakeCode games expect the display that they're running on to be in a 4:3 aspect ratio so when that doesn't happen it obviously confuses the game. So all we have to do is change the display resolution to something that's 4:3 and we're golden. And for good mesasure, I also changed the framebuffer width and height in the `/boot/config.txt` file to be 640 and 480 respectively. Now we have a fully working MakeCode game running on our RPi!
 
-###SAMBA
+### SAMBA
 Thanks to Aidan (his spirit lives on) who has suggested, very cleverly, that we use the Network SMB protocol (also known as SAMBA). The SMB protocol is as defined by Google.
 ```
 A network file sharing protocol that allows applications on a computer to read and write to files and to request services from server programs in a computer network.
