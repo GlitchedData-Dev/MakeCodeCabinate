@@ -7,6 +7,7 @@ Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll bre
   - [McAirpos](#mcairpos)
   - [Preparing and transferring games](#the-games)
   - [SAMBA](#addendum-a)
+  - [Automation](#addendum-b)
 * The Hardware
   - [Microcontroller](#microcontroller)
   - [Joystick](#joystick)
@@ -132,6 +133,11 @@ This will allow us to add the RPi to the laptops as a network folder meaning tha
 
 THANKS AIDAN!
 
+---
+
+#### Addendum B
+##### Automation
+I have now uploaded two files, one called [files.sh](/files.sh) and the other called [files.py](/files.py)
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
 [^3]: See [McAirpos' README](https://github.com/Vegz78/McAirpos/blob/master/README.md#why-the-need-for-mcairpos)
