@@ -94,20 +94,6 @@ What's happening here is that all MakeCode games expect the display that they're
 
 Now we have a fully working MakeCode game running on our RPi!
 
-### SAMBA
-Thanks to Aidan (his spirit lives on) who has suggested, very cleverly, that we use the Network SMB protocol (also known as SAMBA) to transfer files and avoid USB shenanigans. The SMB protocol is as defined by Google.
-```
-A network file sharing protocol that allows applications on a computer 
-to read and write to files and to request services from server programs 
-in a computer network.
-```
-In laymans terms, SAMBA allows us to share files over a network, similar to that of FTP, SFTP, SCP and the likes. 
-
-This will allow us to add the RPi to the laptops as a network folder meaning that you will be able to simply drag and drop the game file into this folder and it will move to the RPi. This won't automatically add it to the gamelist.xml but it certainly makes things a lot easier.
-
-THANKS AIDAN!
-
-
 ## The Hardware
 ### Microcontroller
 The button kit we've acquired uses a microcontroller that connects to the RPi via USB-B (ew)[^5] and conveniently collects all of the buttons to one device so that we don't have to do any editing to the uinput.cfg files (thanks EG Starts B)). Here's a pinout of what all the different ports on the board are for.
@@ -129,6 +115,21 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 <img src="https://user-images.githubusercontent.com/82833724/196813111-ed0b56db-990a-493f-8a43-ec6d7ff87614.png" width=200><img src="https://user-images.githubusercontent.com/82833724/196813135-8e31ebbf-61d0-4f69-ae1a-acebcbc4e9c5.png" width=200>
 
 (The connectors are curled on one side, make sure the curled side is always facing down or towards the button)
+
+---
+
+#### Addendum A, A note on SAMBA
+Thanks to Aidan (his spirit lives on) who has suggested, very cleverly, that we use the Network SMB protocol (also known as SAMBA) to transfer files and avoid USB shenanigans. The SMB protocol is as defined by Google.
+```
+A network file sharing protocol that allows applications on a computer 
+to read and write to files and to request services from server programs 
+in a computer network.
+```
+In laymans terms, SAMBA allows us to share files over a network, similar to that of FTP, SFTP, SCP and the likes. 
+
+This will allow us to add the RPi to the laptops as a network folder meaning that you will be able to simply drag and drop the game file into this folder and it will move to the RPi. This won't automatically add it to the gamelist.xml but it certainly makes things a lot easier.
+
+THANKS AIDAN!
 
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
