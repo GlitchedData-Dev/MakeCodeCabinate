@@ -1,5 +1,5 @@
 # Welcome!
-Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll break down the process I've gone through to get this thing up and running so that (as Colin says) in case I get hit by a bus, ya'll will still know how this shit works.
+Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll break down the process I've gone through to get this thing up and running so that (as Colin says) in case I get hit by a bus, ya'll will still know how this suff works.
 
 ## Table of Contents
 * The Software
@@ -66,7 +66,7 @@ Now when you hit that lovely download button it will spit out a yummy .elf file 
 <img src="https://user-images.githubusercontent.com/82833724/196805911-a3e55d68-703f-4cd0-98ab-5b9ed588fe09.png" width=300>
 
 
-Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line bullshit.[^4] Anyway, just now, this is how it's done.
+Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line crap.[^4] Anyway, just now, this is how it's done.
 
 1. **Transfer the game from the computer onto a USB stick of your choice**
 2. **Plug the USB into the RPi**
