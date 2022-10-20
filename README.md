@@ -127,4 +127,4 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
 [^3]: See [McAirpos' README](https://github.com/Vegz78/McAirpos/blob/master/README.md#why-the-need-for-mcairpos)
-[^4]: See section ["SAMBA"](#samba)
+[^4]: See section [SAMBA](#samba)
