@@ -28,7 +28,7 @@ Once the image had finished flashing the SD was plugged back into the RPi and **
 
 ---
 ### McAirpos
-[McAirpos](https://github.com/Vegz78/McAirpos) is an open source solution made by [Vegz78](https://github.com/Vegz78/) for running MakeCode Games natively on emulation OS' like RetroPie. It also works on both RecalBox and Batocera. You can set up the repository manually but this requires you to make some modifications to the theme files as the manual setup on the github readme only shows what to do for the "Carbon" theme (default theme is now "Carbon-2021" as of 17/11/2020). Thankfully there is an auto setup script in the repository. Here's how to install McAirpos
+[McAirpos](https://github.com/Vegz78/McAirpos) is an open source solution made by [Vegz78](https://github.com/Vegz78/) for running MakeCode Games natively on emulation OS' like RetroPie. It also works on both RecalBox and Batocera. You can set up the repository manually but this requires you to make some modifications to the theme files as the manual setup on the GitHub README.md only shows what to do for the "Carbon" theme (The default theme is now "Carbon-2021" as of 17/11/2020). Thankfully there is an auto setup script in the repository. Here's how to install McAirpos
 
 **Simply clone the repository**[^1]
 ```bash
