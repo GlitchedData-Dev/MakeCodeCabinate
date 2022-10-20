@@ -137,7 +137,11 @@ THANKS AIDAN!
 
 #### Addendum B
 ##### Automation
-I have now uploaded two files, one called [files.sh](/files.sh) and the other called [files.py](/files.py)
+I have now uploaded two files, one called [files.sh](/files.sh) and the other called [files.py](/files.py) both with full commentary. These files will be used to detect changes in the makecode game directory and update the gamelist.xml file accordingly. The _files.py_ works by checking the file with the newest timestamp and getting the name of that file. It then fills that data into a template xml file and appends that to the original.
+
+The files.sh simply scans for changes in the game directory and runs the python file when it detects one.
+
+
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
 [^3]: See [McAirpos' README](https://github.com/Vegz78/McAirpos/blob/master/README.md#why-the-need-for-mcairpos)
