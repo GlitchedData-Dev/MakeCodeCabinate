@@ -6,7 +6,7 @@ Welcome to the docs page for the MakeCode Cabinate Project (MCCP). Here I'll bre
   - [RetroPie Setup](#retropie-setup)
   - [McAirpos](#mcairpos)
   - [Preparing and transferring games](#the-games)
-  - [SAMBA](#addendum-a,-a-note-on-samba)
+  - [SAMBA](#addendum-a)
 * The Hardware
   - [Microcontroller](#microcontroller)
   - [Joystick](#joystick)
@@ -118,7 +118,8 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 
 ---
 
-#### Addendum A, A note on SAMBA
+#### Addendum A
+##### Concerning SAMBA
 Thanks to Aidan (his spirit lives on) who has suggested, very cleverly, that we use the Network SMB protocol (also known as SAMBA) to transfer files and avoid USB shenanigans. The SMB protocol is as defined by Google.
 ```
 A network file sharing protocol that allows applications on a computer 
@@ -134,5 +135,5 @@ THANKS AIDAN!
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
 [^3]: See [McAirpos' README](https://github.com/Vegz78/McAirpos/blob/master/README.md#why-the-need-for-mcairpos)
-[^4]: See section [SAMBA](#samba)
+[^4]: See section [SAMBA](#addendum-a)
 [^5]: I don't like USB-B, It's like USB-A took some viagra and decided to hit the gym
