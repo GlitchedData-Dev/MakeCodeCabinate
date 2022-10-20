@@ -51,7 +51,7 @@ Now McAirpos was set up and showing in the menu but there was still some setup n
 ---
 
 ### The Games
-MakeCode games normally download in a format called [**uf2**](https://github.com/microsoft/uf2) which is a file format specifically designed by Microsoft for flashing files to microcontrollers via USB (hence the name USB Flashing Format). This file format unfortunately doesn't work with McAirpos but (not so unfortunately) the MakeCode Arcade allows for exporting in other formats, such as _.elf_ which is what we're using for this project. Thankfully, it's fairly easy to allow for exporting as a .elf file.
+MakeCode games normally download in a format called [**uf2**](https://github.com/microsoft/uf2) which is a file format specifically designed by Microsoft for flashing files to microcontrollers via USB (hence the name USB Flashing Format). This file format unfortunately doesn't work with McAirpos[^3] but (not so unfortunately) the MakeCode Arcade allows for exporting in other formats, such as _.elf_ which is what we're using for this project. Thankfully, it's fairly easy to allow for exporting as a .elf file.
 
 Change the url of the makecode arcade slightly so that instead of 
 
@@ -66,7 +66,7 @@ Now when you hit that lovely download button it will spit out a yummy .elf file 
 <img src="https://user-images.githubusercontent.com/82833724/196805911-a3e55d68-703f-4cd0-98ab-5b9ed588fe09.png" width=300>
 
 
-Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line bullshit.[^3] Anyway, just now, this is how it's done.
+Transferring a game from a computer to the RPi is quite an involved process at the moment but I'll write an automation script at some point so that we don't have to do a bunch of command line bullshit.[^4] Anyway, just now, this is how it's done.
 
 1. **Transfer the game from the computer onto a USB stick of your choice**
 2. **Plug the USB into the RPi**
@@ -126,4 +126,5 @@ And even this wasn't completely accurate. Anyway, here's a picture of a button f
 
 [^1]: Must be run from the _home/pi_ directory
 [^2]: Run with sudo
-[^3]: See section ["SAMBA"](#samba)
+[^3]: See [McAirpos' README](https://github.com/Vegz78/McAirpos/blob/master/README.md#why-the-need-for-mcairpos)
+[^4]: See section ["SAMBA"](#samba)
