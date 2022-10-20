@@ -112,7 +112,7 @@ THANKS AIDAN!
 ### Microcontroller
 The button kit we've acquired uses a microcontroller that connects to the RPi via USB-B (ew)[^5] and conveniently collects all of the buttons to one device so that we don't have to do any editing to the uinput.cfg files (thanks EG Starts B)). Here's a pinout of what all the different ports on the board are for.
 
-<img src="https://user-images.githubusercontent.com/82833724/196830932-5787fade-448b-40e1-80c3-568a53291ef1.png" width=300/>
+<img src="https://user-images.githubusercontent.com/82833724/196830932-5787fade-448b-40e1-80c3-568a53291ef1.png" width=400/>
 
 All we're really interested in is the 12 button slots and the 5-Pin joystick slot.
 
